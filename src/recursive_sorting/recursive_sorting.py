@@ -13,6 +13,15 @@ def merge( arrA, arrB ):
         j+=1
       k+=1
     
+    while i < len(arrA):
+      merged_arr[k] = arrA[i]
+      i+=1
+      k+=1
+
+    while j < len(arrB):
+      merged_arr[k] = arrB[j]
+      j+=1
+      k+=1
     return merged_arr
 
 
